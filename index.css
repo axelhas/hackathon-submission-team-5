@@ -1,0 +1,119 @@
+html{
+  background-color: rgb(44, 44, 44);
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+}
+
+#mainbody{
+  text-align: center;
+}
+
+body{
+  margin: 0px;
+}
+
+.content{
+  margin-left: 15px;
+}
+
+.nav-link{
+  font-size: 20px;
+}
+
+#headerdiv a:link {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+#headerdiv a:hover{
+  background-color: white;
+  color: black;
+}
+
+a:link {
+  color: white;
+}
+  
+  /* visited link */
+a:visited {
+  color: white;
+}
+  
+  /* mouse over link */
+a:hover {
+  color: black;
+}
+  
+  /* selected link */
+a:active {
+    color: white;
+}
+
+#headerdiv{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: black;
+}
+
+#headerdiv > * {
+  margin: 20px;
+  padding: 0px;
+}
+
+/*meant for second sites*/
+nav a {
+  font-size: 20px;
+  color: white;
+}
+img {
+  width: 150px;
+  height: 100px;
+}
+
+nav {
+  margin: 20px;
+  padding: 0px;
+}
+
+nav a:hover {
+  color: black;
+}
+
+#current_tab {
+  color: black;
+}
+
+li{
+  font-size: 20px;
+}
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.listitem{
+  width: 600px;
+  margin: 20px;
+  border: 5px solid white;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+.listitem > *{
+  margin: 20px;
+}
+
+.listitem li{
+  font-size: 20px;
+}
+
+.listitem img{
+  width: 450px;
+  height: auto;
+}
